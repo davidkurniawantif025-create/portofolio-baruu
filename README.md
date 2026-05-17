@@ -1,0 +1,2 @@
+# portofolio-baruu
+curriculum vitae
