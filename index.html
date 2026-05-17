@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Curriculum Vitae - Portofolio Pribadi</title>
+
+  <!-- Google Fonts (font modern) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome (icon media sosial) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- CSS utama -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Smooth scrolling & background wrapper -->
+  <header>
+    <!-- Navbar top (fixed) -->
+    <nav class="navbar" aria-label="Navigasi utama">
+      <div class="container nav-inner">
+        <a class="brand" href="#home" aria-label="Ke halaman Home">
+          <i class="fa-solid fa-user-tie"></i>
+          <span>MyPortofolio</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+          <li><a class="nav-link" href="#home">HOME</a></li>
+          <li><a class="nav-link" href="#curriculum">CURRICULUM VITAE</a></li>
+          <li><a class="nav-link" href="#contact">HUBUNGI KAMI</a></li>
+          <li><a class="nav-link" href="#social">MEDIA SOCIAL</a></li>
+          <li><a class="nav-link" href="#additional">INFO TAMBAHAN</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME SECTION -->
+    <section id="home" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="pill">
+            <i class="fa-solid fa-bolt"></i>
+            <span>Profesional • Responsive • Modern</span>
+          </div>
+
+          <!-- Foto profil berbentuk lingkaran -->
+          <div class="profile-wrap">
+            <img
+              class="profile-img"
+              src="profile.jpeg"
+              alt="Foto profil"
+            />
+          </div>
+
+          <!-- Heading nama & status/profesi -->
+          <h1 class="hero-title">David Kurniawan</h1>
+          <p class="hero-subtitle">Frontend Developer • Mahasiswa Aktif</p>
+
+          <!-- Deskripsi singkat -->
+          <p class="hero-description">
+            Saya adalah Mahasiswa Teknik Informatika yang sedang dalam project pengembangan web. dan berpengalaman dalam bidang keamanan Siber
+          </p>
+
+          <!-- Tombol link dengan animasi sederhana -->
+          <div class="btn-row">
+            <a class="btn btn-primary" href="#curriculum">
+              <i class="fa-solid fa-file-lines"></i>
+              <span>Lihat CV</span>
+            </a>
+            <a class="btn btn-secondary" href="#contact">
+              <i class="fa-solid fa-paper-plane"></i>
+              <span>Hubungi Saya</span>
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="meta-item">
+              <span class="meta-label">Lokasi</span>
+              <span class="meta-value">Indonesia</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Fokus</span>
+              <span class="meta-value">HTML • CSS • JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-label="Ringkasan singkat">
+          <h2 class="card-title">Ringkasan</h2>
+          <ul class="list">
+            <li><i class="fa-solid fa-check"></i> Berorientasi pada detail & kualitas tampilan.</li>
+            <li><i class="fa-solid fa-check"></i> Terbiasa membangun layout responsif.</li>
+            <li><i class="fa-solid fa-check"></i> Kolaboratif dan siap belajar hal baru.</li>
+          </ul>
+
+          <div class="divider"></div>
+
+          <div class="stat-grid">
+            <div class="stat">
+              <div class="stat-number">+2</div>
+              <div class="stat-label">Project UI</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">5+</div>
+              <div class="stat-label">Sertifikat / Kursus</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">1</div>
+              <div class="stat-label">Portofolio</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CURRICULUM VITAE SECTION -->
+    <section id="curriculum" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">CURRICULUM VITAE</h2>
+          <p class="section-subtitle"></p>
+        </div>
+
+        <!-- Tabel HTML -->
+        <div class="table-wrap">
+          <table class="cv-table">
+            <tbody>
+              <!-- Biodata -->
+              <tr>
+                <th>Biodata</th>
+                <td>
+                  <div class="cell">
+                    <p><strong>Nama:</strong> Nama Lengkap</p>
+                    <p><strong>Tempat, Tanggal Lahir:</strong> Pekanbaru, 11 Juli 2006</p>
+                    <p><strong>Jenis Kelamin:</strong> Laki-laki</p>
+                    <p><strong>Status:</strong> Mahasiswa Aktif</p>
+                    <p><strong>Alamat:</strong> Jl. Sukajaya No.34, Pekanbaru</p>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Pendidikan -->
+              <tr>
+                <th>Pendidikan</th>
+                <td>
+                  <div class="cell">
+                    <p><strong>2025 - Sekarang</strong> • Universitas Muhammadiyah Riau - Teknik Informatika</p>
+                    <p><strong>2021 - 2024 </strong> • SMKN 7 Pekanbaru - Jurusan Teknik Komputer & Jaringan</p>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Pengalaman -->
+              <tr>
+                <th>Pengalaman</th>
+                <td>
+                  <div class="cell">
+                    <p><strong>2023 (Magang)</strong> • IT Support- (BID TIK Polda Riau)</p>
+                    <p><strong>2022</strong> • Membuat website portofolio & landing page menggunakan HTML/CSS</p>
+                    <p><strong>2021</strong> • Tim pengembangan Keamanan Siber di lembaga Pemerintahan</p>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Organisasi -->
+              <tr>
+                <th>Organisasi</th>
+                <td>
+                  <div class="cell">
+                    <p><strong>2022 - 2023</strong> • Anggota BKO - SANDI (BAINTELKAM POLRI)</p>
+                    <p><strong>2021 - 2022</strong> • Digital Forensics Support (INTELIJEN KEJAKSAAN AGUNG RI)</p>
+                  </div>
+                </td>
+              </tr>
+
+              <!-- Keahlian -->
+              <tr>
+                <th>Keahlian</th>
+                <td>
+                  <div class="cell">
+                    <div class="skill-mini">
+                      <div class="skill-item">HTML</div>
+                      <div class="skill-item">CSS</div>
+                      <div class="skill-item">JavaScript</div>
+                      <div class="skill-item">LINUX</div>
+                      <div class="skill-item">MikroTik</div>
+                    </div>
+                    <div class="skill-note">Lihat juga progress skill di bagian INFO TAMBAHAN.</div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="hint-row">
+          <i class="fa-solid fa-hand-pointer"></i>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">HUBUNGI KAMI</h2>
+          <p class="section-subtitle">Kirim pesan atau hubungi langsung melalui kontak berikut.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-photo">
+              <img
+                src="profile.jpeg"
+                alt="Foto diri"
+              />
+            </div>
+
+            <div class="contact-body">
+              <div class="contact-row">
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <div class="contact-label">Nomor HP</div>
+                  <div class="contact-value">+62 823 8105 3320</div>
+                </div>
+              </div>
+
+              <div class="contact-row">
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <div class="contact-label">Email</div>
+                  <div class="contact-value">davidmarpaung0711@gmail.com</div>
+                </div>
+              </div>
+
+              <div class="contact-row">
+                <i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <div class="contact-label">Alamat</div>
+                  <div class="contact-value">Jl. Sukajaya, No.34, Pekanbaru</div>
+                </div>
+              </div>
+
+              <a class="btn btn-primary btn-wide" href="#social">
+                <i class="fa-brands fa-connectdevelop"></i>
+                <span>Ke Media Sosial</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="contact-side">
+            <div class="side-card">
+              <h3 class="side-title">Catatan</h3>
+              <p class="muted">
+                Hubungi saya untuk kesempatan magang, proyek freelance, atau kolaborasi.
+                Respons biasanya dalam 1x24 jam.
+              </p>
+            </div>
+
+            <div class="side-card">
+              <h3 class="side-title">Aksi Cepat</h3>
+              <div class="btn-row btn-row--small">
+                <a class="btn btn-secondary" href="#curriculum">
+                  <i class="fa-solid fa-arrow-up"></i>
+                  <span>Lihat CV</span>
+                </a>
+                <a class="btn btn-secondary" href="#additional">
+                  <i class="fa-solid fa-star"></i>
+                  <span>Info Tambahan</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOCIAL SECTION -->
+    <section id="social" class="section social">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">MEDIA SOCIAL</h2>
+          <p class="section-subtitle">Klik ikon untuk mengunjungi profil.</p>
+        </div>
+
+        <div class="social-row" role="list">
+          <a class="social-icon" href="#" target="_blank" rel="noopener" role="listitem" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+          </a>
+
+          <a class="social-icon" href="#" target="_blank" rel="noopener" role="listitem" aria-label="Facebook">
+            <i class="fa-brands fa-facebook"></i>
+            <span>Facebook</span>
+          </a>
+
+          <a class="social-icon" href="#" target="_blank" rel="noopener" role="listitem" aria-label="TikTok">
+            <i class="fa-brands fa-tiktok"></i>
+            <span>TikTok</span>
+          </a>
+
+          <a class="social-icon" href="#" target="_blank" rel="noopener" role="listitem" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+
+          <a class="social-icon" href="#" target="_blank" rel="noopener" role="listitem" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADDITIONAL INFO SECTION -->
+    <section id="additional" class="section additional">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Informasi Tambahan</h2>
+          <p class="section-subtitle">Hobi, motto hidup, bahasa, serta project/prestasi.</p>
+        </div>
+
+        <div class="additional-grid">
+          <!-- Hobi -->
+          <div class="info-card">
+            <h3 class="info-title"><i class="fa-solid fa-heart"></i> Hobi</h3>
+            <ul class="list list--compact">
+              <li><i class="fa-solid fa-check"></i> Membaca teknologi & UI/UX</li>
+              <li><i class="fa-solid fa-check"></i> Membuat desain sederhana</li>
+              <li><i class="fa-solid fa-check"></i> Mengikuti kursus online</li>
+            </ul>
+          </div>
+
+          <!-- Motto -->
+          <div class="info-card">
+            <h3 class="info-title"><i class="fa-solid fa-compass"></i> Motto Hidup</h3>
+            <p class="quote">
+              "Belajar hari ini, bangun esok. Konsisten lebih penting daripada instan."
+            </p>
+          </div>
+
+          <!-- Bahasa -->
+          <div class="info-card">
+            <h3 class="info-title"><i class="fa-solid fa-language"></i> Bahasa yang dikuasai</h3>
+            <div class="lang">
+              <div class="lang-row">
+                <span>Bahasa Indonesia</span>
+                <span class="lang-level">Lancar</span>
+              </div>
+              <div class="lang-row">
+                <span>Bahasa Inggris</span>
+                <span class="lang-level">Menengah</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project/Prestasi -->
+          <div class="info-card">
+            <h3 class="info-title"><i class="fa-solid fa-trophy"></i> Project / Prestasi</h3>
+            <ul class="list list--compact">
+              <li><i class="fa-solid fa-trophy"></i> Juara 3 Desain UI (Norwegia)</li>
+              <li><i class="fa-solid fa-trophy"></i>Silver Medal dalam kategori CCNA pada ajang Cisco NetAcad Riders Tingkat Regional</li>
+              <li><i class="fa-solid fa-diagram-project"></i> Mini project “To-Do App”</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Progress Skill -->
+        <div class="skills-block" aria-label="Progress skill">
+          <h3 class="skills-title"><i class="fa-solid fa-sliders"></i> Progress Skill</h3>
+          <div class="skills-grid">
+            <div class="skill">
+              <div class="skill-top">
+                <span>HTML</span>
+                <span class="skill-percent">90%</span>
+              </div>
+              <div class="progress">
+                <span class="progress-bar" style="width: 90%" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span>CSS</span>
+                <span class="skill-percent">85%</span>
+              </div>
+              <div class="progress">
+                <span class="progress-bar" style="width: 85%" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span>JavaScript</span>
+                <span class="skill-percent">75%</span>
+              </div>
+              <div class="progress">
+                <span class="progress-bar" style="width: 75%" aria-hidden="true"></span>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-top">
+                <span>React (optional)</span>
+                <span class="skill-percent">65%</span>
+              </div>
+              <div class="progress">
+                <span class="progress-bar" style="width: 65%" aria-hidden="true"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>&copy; <span id="year"></span> Nama Lengkap. All Rights Reserved.</span>
+      <a class="footer-link" href="#home">Kembali ke atas</a>
+    </div>
+  </footer>
+
+  <!-- Minimal JS untuk fitur navbar toggle (tetap single page) -->
+  <script>
+    // Set tahun otomatis
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Toggle menu mobile
+    const btn = document.querySelector('.nav-toggle');
+    const links = document.getElementById('navLinks');
+
+    if (btn && links) {
+      btn.addEventListener('click', () => {
+        const expanded = btn.getAttribute('aria-expanded') === 'true';
+        btn.setAttribute('aria-expanded', String(!expanded));
+        links.classList.toggle('show');
+      });
+
+      // Tutup menu saat klik link
+      links.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          links.classList.remove('show');
+          btn.setAttribute('aria-expanded', 'false');
+        });
+      });
+    }
+  </script>
+</body>
+</html>
+
